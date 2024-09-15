@@ -1,0 +1,495 @@
+/* Hero Section */
+/* Hero Section */
+.hero {
+    background: url('https://res.cloudinary.com/dd0o9sf5m/image/upload/v1725986111/HD-wallpaper-arijit-singh-live-in-concert-with-world-musicians_hk33bm.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 20px; /* Add padding for responsive spacing */
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for better readability */
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 50px; /* Large, impactful heading */
+    font-weight: 700; /* Bold text */
+    margin-bottom: 20px; /* Space below the heading */
+    line-height: 1.2; /* Tight line height for a compact look */
+}
+
+.hero p {
+    font-size: 20px; /* Larger font size for readability */
+    max-width: 800px; /* Max width for better text alignment */
+    margin-bottom: 30px; /* Space below the paragraph */
+    line-height: 1.6; /* Increased line height for readability */
+}
+
+.hero .button {
+    background-color: #4CAF50; /* Button background color */
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.hero .button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+/* Navbar */
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)); /* Gradient background */
+    position: fixed; /* Stick navbar to the top */
+    width: 100%;
+    z-index: 2;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center items */
+    padding: 10px 0; /* Padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    color: #4CAF50; /* Change text color on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Additional styling */
+.cta {
+    background-color: #ff8800;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background-color: #ff5500;
+}
+
+.countdown {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#about h2{
+    text-align: center;
+}
+
+/* About Section Styles */
+#about{
+    background: #ffffff; /* White background for contrast */
+    padding: 40px 20px; /* Generous padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Centered with margin */
+    max-width: 800px; /* Max width for larger screens */
+    text-align: center; /* Center text */
+}
+
+#about h2 {
+    font-size: 28px; /* Larger font size for the heading */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: 600; /* Bold heading */
+}
+
+#about p {
+    font-size: 18px; /* Comfortable reading size */
+    color: #666; /* Softer text color */
+    line-height: 1.6; /* Increased line height for readability */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+
+
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5) !important;
+            padding: 10px !important;
+            border-radius: 5px !important;
+            color: white !important; /* Ensure text color is white */
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(100%) !important; /* Ensure slide button color is white */
+        }
+
+        .performer-card {
+            width: 100%;
+            max-width: 250px; /* Fixed width for uniformity */
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .performer-card img {
+            height: 200px; /* Fixed height for uniformity */
+            width: 100%; /* Ensure image covers the width of the card */
+            object-fit: cover; /* Ensure images cover the container without distortion */
+        }
+
+        .performer-card .card-img-overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Optional: Add a background color for better text visibility */
+        }
+
+        .performer-card .card-title {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .features {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features .feature-box {
+    display: inline-block;
+    width: 220px; /* Same width for all boxes */
+    height: 300px; /* Same height for all boxes */
+    margin: 20px;
+    padding: 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    vertical-align: top; /* Aligns boxes properly */
+    box-sizing: border-box; /* Includes padding and border in element's total width and height */
+}
+
+.features .feature-box img {
+    width: 60px; /* Adjusted size for icons */
+    margin-bottom: 15px;
+    background-color: white; /* White background for icon */
+    padding: 10px; /* Padding around the icon */
+    border-radius: 50%; /* Circular background for icons */
+    color: #007bff; 
+}
+
+.features .feature-box h3 {
+    margin: 15px 0;
+}
+
+.features .feature-box p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* Performers Section */
+.performers {
+    margin-bottom: 40px;
+    /* Adjust the bottom margin to create space below this section */
+}
+#performers h2{
+    text-align: center;
+}
+/* Event Schedule Section */
+.event-schedule {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px; /* Add top margin to ensure space between this and the previous section */
+}
+
+/* Event Schedule Section */
+.event-schedule {
+    background-color: #343a40; /* Dark background for the section */
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px; /* Space between sections */
+    border-top: 5px solid #495057; /* Top border for separation */
+}
+
+.event-schedule h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased space below the heading */
+    font-size: 32px; /* Larger font size for emphasis */
+    font-weight: 600; /* Bold heading */
+}
+
+.event-schedule .event {
+    background-color: #495057; /* Slightly lighter background for events */
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.event-schedule .event:hover {
+    background-color: #6c757d; /* Lighter background on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.event-schedule .event h3 {
+    margin: 0;
+    font-size: 24px; /* Font size for event titles */
+    font-weight: 500; /* Medium weight for titles */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.event-schedule .event p {
+    font-size: 18px; /* Font size for event details */
+    line-height: 1.6; /* Increased line height for readability */
+    color: #e9ecef; /* Lighter text color for contrast */
+}
+
+        .ticket-form {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+        }
+
+        .ticket-form form {
+            max-width: 600px;
+            margin: auto;
+            background-color: #343a40;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .ticket-form label {
+            color: white;
+        }
+
+        .ticket-form input {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .ticket-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .ticket-form button:hover {
+            background-color:red;
+        }
+
+        .venue {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .venue h2 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .venue p {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-weight:bold;
+        }
+
+        
+
+footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+footer img {
+    filter: invert(1); /* Inverts the colors to make the icons white */
+    transition: filter 0.3s ease;
+}
+
+footer img:hover {
+    filter: invert(1) brightness(0.9); /* Slightly dims the white icons on hover */
+}
+
+
+footer a img {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+        }
+
+        .highlight {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.highlight h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.highlight iframe {
+    width: 100%; /* Full width of its container */
+    max-width: 350px; /* Maximum width of each video */
+    height: 170px; /* Adjust height proportionally to width */
+    margin: 10px;
+    border: none;
+    display: inline-block; /* Display videos in a row */
+    vertical-align: middle; /* Align videos vertically */
+}
+
+        .testimonials {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            margin-bottom: 20px;
+            font-weight:bold;
+        }
+
+        .testimonials blockquote {
+            background-color: #f8f9fa;
+            border-left: 5px solid #007bff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            font-style: italic;
+            text-align: center;
+        }
+
+         .gallery {
+            background-color: #f0f0f0;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .gallery h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery-images img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+                
+
+.faq {
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #0056b3;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.faq-item .collapse {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.faq-item .collapse p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faq-item {
+        padding: 15px;
+    }
+
+    .faq h2 {
+        font-size: 2rem;
+    }
+
+    .faq-item .faq-question {
+        font-size: 1.25rem;
+    }
+}
+
+    
